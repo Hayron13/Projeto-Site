@@ -1,0 +1,28 @@
+.bannerSite{
+    display: flex;
+    flex-direction:center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    
+}
+#spaceBanner{
+    width: 400px;
+    height: 400px;
+    max-width: 400px;
+    max-height: 400px;
+    position: relative;
+
+}
+#spaceBanner>img {
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+#spaceBanner img.selectBanner{
+    opacity: 1;
+}
+    
+   

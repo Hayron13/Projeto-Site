@@ -1,0 +1,19 @@
+footer{
+    display: flex;
+    height: 200px;
+    background-color: #877664;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;    
+}
+footer>div>p{
+    color: white;
+}
+#redeSocial{
+    text-decoration: none;
+    font-weight: normal;
+    padding: 5px;
+    display: block;
+    color: white;
+}

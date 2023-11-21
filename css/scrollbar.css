@@ -1,0 +1,24 @@
+/* CSS Scrollbars - Horizontal e Vertical */
+
+/* Estilo para as Scrollbars (thumb e track) */
+::-webkit-scrollbar {
+    width: 12px; /* largura da scrollbar (vertical) */
+    height: 12px; /* altura da scrollbar (horizontal) */
+}
+
+/* Estilo para a faixa da Scrollbar (plano de fundo da barra de progresso) */
+::-webkit-scrollbar-track {
+    background: #F0F0F0; /* cor da faixa da scrollbar (plano de fundo da barra de progresso) */
+}
+
+/* Estilo para o thumb da Scrollbar (manipulador de arrastar) */
+::-webkit-scrollbar-thumb {
+    background: #888; /* cor do thumb da scrollbar (manipulador de arrastar) */
+    border-radius: 10px; /* cantos arredondados para o thumb da scrollbar */
+}
+
+/* Redefine alguns estilos padrão para o Firefox */
+html {
+    scrollbar-color: #888 #F0F0F0; /* cor do thumb e da faixa da scrollbar */
+    scrollbar-width: thin; /* largura da scrollbar */
+}

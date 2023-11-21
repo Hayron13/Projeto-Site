@@ -1,0 +1,16 @@
+#separaSite{
+    background-color: #BA8F65;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    text-align: center;
+  
+}
+#separaSite:hover{
+    background-color:#332A22;
+}
+#separaSite>a>img{
+    width: 50px;
+}
+#separaSite>a>img:hover{
+    width: 80px;
+}

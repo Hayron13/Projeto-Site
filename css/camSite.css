@@ -1,0 +1,10 @@
+.campSite{
+    display: flex;
+    width: 100%;
+    overflow: scroll;
+    background-color: #332A22;
+}
+.campSite>iframe{
+    padding: 10px;
+    height: max-content;
+}

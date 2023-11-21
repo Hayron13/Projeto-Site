@@ -1,0 +1,60 @@
+.top01Site{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.rankSite{
+    width: 500px;
+    background-color: #ffffff;
+    
+}
+.personRank{
+    border-bottom: 1px solid #ED9F51;
+}
+.rankSite>div{
+    display: flex;
+    align-items: center;
+    padding: 2px 0 2px 15px;
+}
+.personRank>img{
+    width:50px;
+    border-radius: 50%;
+    padding-right: 10px;
+}
+#nameSite{
+    font-size: 20px;
+    font-weight: bold;
+    color:#ED9F51;
+}
+
+.personRank>div>a{
+    text-decoration: none;
+    color: black;
+}
+.positionRank{
+    margin-left: auto;
+    text-align: center;
+    background-color: #ED9F51;
+    display: block;
+    padding: 10px;
+    border-radius: 6px;
+    margin-right: 5px;
+}
+.pRank{
+    font-weight: bolder;
+    font-size:xx-large ;
+}
+
+.rRank{
+    text-transform: uppercase;
+}
+.positionRank:hover{
+    background-color: #332A22;
+}
+.pRank:hover{
+    color:#ED9F51;
+}
+
+.rRank:hover{
+    color:#ED9F51;
+}
