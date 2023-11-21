@@ -1,3 +1,6 @@
+body{
+    background-image: url(../img/CS2BG.png);
+}
 body>form {
     text-align: center;
     font-family: Arial, sans-serif;
