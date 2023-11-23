@@ -5,10 +5,15 @@ footer{
     text-align: center;
     justify-content: center;
     align-items: center;
-    font-weight: bold;    
+    font-weight: bold;
+    flex-direction: column; 
 }
 footer>div>p{
     color: white;
+}
+div>a>img{
+    width: 50px;
+    bottom: 10px;
 }
 #redeSocial{
     text-decoration: none;
