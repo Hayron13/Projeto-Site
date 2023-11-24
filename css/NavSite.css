@@ -1,24 +1,38 @@
-.navSite{
+/* Menu padrão */
+.navSite {
     background-color: #BA8F65;
     margin: 0 auto;
-   
 }
-.navSite>ul{
-     margin: 0 auto;
-   justify-content: center;
+
+.navSite>ul {
+    margin: 0 auto;
+    justify-content: center;
     display: flex;
     list-style-type: none;
 }
-.navSite>ul>li{
- margin: 20px;
+
+.navSite>ul>li {
+    margin: 20px;
 }
+
 .navSite>ul>li>a {
-   
     padding: 20px;
     text-decoration: none;
     color: white;
 }
+
 .navSite>ul>li>a:hover {
     color: #ED9F51;
     background-color: #544E48;
+}
+
+/*menu responsivo*/
+@media only screen and (max-width: 767px) {
+    .navSite>ul {
+        align-items: center;
+    }
+
+    .navSite>ul>li {
+        margin: 10px 0;
+    }
 }
